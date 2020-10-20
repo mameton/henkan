@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Henkan</title>
+    <title>Romazi HENKAN</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,16 +10,6 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="header__bar row">
-        <h1 class="title"><a href='/'>ローマ字変換</a></h1>
-          <a class="change" href="/romazis/new">変換する</a>
-        </div>
-      </div>
-    </header>
     <%= yield %>
-    <footer>
-    <p>Copylight Henkan 2020.</p>
-    </footer>
-  </body>
+    </body>
 </html>
