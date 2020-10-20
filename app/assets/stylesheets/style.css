@@ -1,0 +1,17 @@
+header{
+  height:100px;
+  background-color: darkgray;
+}
+
+header a{
+  text-decoration: none;
+}
+
+.title{
+  float: left;
+  padding-left:50px;
+}
+
+.change{
+  float: right;
+}

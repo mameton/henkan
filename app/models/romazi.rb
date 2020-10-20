@@ -1,0 +1,2 @@
+class Romazi < ApplicationRecord
+end
