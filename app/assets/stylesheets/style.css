@@ -1,17 +1,54 @@
-header{
-  height:100px;
-  background-color: darkgray;
+body{
+  margin: 0;
+  font-family:  "Hiragino Kaku Gothic ProN";;
 }
 
-header a{
+a{
   text-decoration: none;
 }
 
-.title{
-  float: left;
-  padding-left:50px;
+.container{
+  margin-left: 25px;
 }
 
-.change{
-  float: right;
+.top-wrapper{
+  background-image: url(https://hard-mode.net/wp-content/uploads/2020/04/photo-1563191911-e65f8655ebf9-min.jpg);
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 180px;
+  background-size: cover;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size:45px;
+  letter-spacing: 3px;
+}
+
+.btn{
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.facebook{
+  background-color: #3b5998;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.line{
+  background-color: #00c300;
+}
+
+.instagram{
+  background-color: #e1306c;
 }
