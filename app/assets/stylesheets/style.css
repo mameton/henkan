@@ -90,3 +90,27 @@ header{
 .header-right:hover{
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.change-wrapper{
+ margin-top:80px;
+ position: relative;
+ text-align: center;
+}
+
+.changes{
+  display: inline-block;
+}
+
+.change{
+ float: left;
+}
+
+.image{
+  border-radius: 300px;
+  width: 400px;
+  text-align: center;
+}
+
+.image2{
+  width: 400px;
+}
