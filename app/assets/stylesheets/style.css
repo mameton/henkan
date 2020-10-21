@@ -16,9 +16,10 @@ a{
   background-image: url(https://hard-mode.net/wp-content/uploads/2020/04/photo-1563191911-e65f8655ebf9-min.jpg);
   color: white;
   padding-bottom: 100px;
-  padding-top: 150px;
+  padding-top: 100px;
   background-size: cover;
   text-align: center;
+  height: 400px;
 }
 
 .top-wrapper p{
@@ -38,7 +39,7 @@ a{
   padding: 10px;
   margin-left: 15px;
   border-radius: 5px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .btn:hover{
