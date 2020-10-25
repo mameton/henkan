@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family:  "Hiragino Kaku Gothic ProN";;
+  height: 100vh;
 }
 
 a{
@@ -8,126 +8,82 @@ a{
   color: antiquewhite;
 }
 
-.container{
-  margin-left: 25px;
-}
-
-.top-wrapper{
-  background-image: url(https://hard-mode.net/wp-content/uploads/2020/04/photo-1563191911-e65f8655ebf9-min.jpg);
-  color: white;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  background-size: cover;
-  text-align: center;
-  height: 400px;
-}
-
-.top-wrapper p{
-  opacity: 0.9;
-}
-
-.top-wrapper h1{
-  opacity: 0.7;
-  font-size:45px;
-  letter-spacing: 3px;
-}
-
-.btn{
-  color: white;
-  font-size: 15px;
-  padding-left: 50px;
-  padding: 10px;
-  margin-left: 15px;
-  border-radius: 5px;
-  opacity: 0.8;
-}
-
-.btn:hover{
-  opacity: 1;
-}
-
-.facebook{
-  background-color: #3b5998;
-}
-
-.twitter{
-  background-color: #55acee;
-}
-
-.line{
-  background-color: #00c300;
-}
-
-.instagram{
-  background-color: #e1306c;
-}
-
-.fa{
-  margin-right: 5px;
-}
-
 header{
-  height:65px;
-  background-color: rgba(42, 40, 44, 0.9);
+  height:50px;
+  background-color: rgb(44, 44, 43);
+  line-height: 55px;
 }
 
 .header-left{
   float: left;
+  color: white;
+  margin-left: 20px;
+  font-family: 'Bradley Hand',sans-serif;
+  font-size: 30px;
 }
 
 .header-right{
   float: right;
-  font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
-.header-right a{
-  line-height: 65px;
-  padding: 0 20px;
+.fab{
+  font-size: 25px;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+
+.fab:hover{
+  opacity: 1;
+}
+
+.login{
+  margin-left: 15px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.login:hover{
+  opacity: 1;
+}
+
+.top-wrapper{
+  background-image: url(https://card.hankoya.com/_pkg/img/card/create/rome_photo01.jpg);
+  background-size: cover;
+  height: calc(100% - 50px);
+  position: relative;
+}
+
+
+.abc{
+  color: black;
+  position: absolute;
+  font-size: 45px;
+  font-family: 'Zapfino',sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  letter-spacing: 8px;
+  margin: 0 0 0 15px;
   display: block;
 }
 
-.header-right:hover{
-  background-color: rgba(255, 255, 255, 0.5);
+p{
+  line-height: 1.2;
 }
 
-.change-wrapper{
- margin-top:80px;
- position: relative;
- text-align: center;
+.fas{
+  margin-left: 88vw;
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  opacity: 0.6;
 }
 
-.changes{
-  display: inline-block;
+.fas:hover{
+  opacity: 1;
 }
 
-.change{
- float: left;
-}
-
-.image{
-  border-radius: 300px;
-  width: 400px;
-  text-align: center;
-}
-
-.image2{
-  width: 400px;
-}
-
-.image3{
-  width: 100px;
-  margin-top: 250px;
-}
-
-.image4{
-  width: 70px;
-  margin-left: 40px;
-}
-
-.image5{
-  width: 500px;
-  margin-top: 100px;
-  margin-left: 30px;
+span{
+  padding-left: 10px;
+  font-family: 'Zapfino',sans-serif;
 }
